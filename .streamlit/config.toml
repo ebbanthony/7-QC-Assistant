@@ -1,0 +1,8 @@
+[server]
+address = "localhost"   # only reachable from this PC
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#1e7b34"

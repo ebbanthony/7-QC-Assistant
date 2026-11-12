@@ -100,8 +100,12 @@ A monthly cadence costs a few dollars to low tens per month. The run log shows t
 - Export to Excel (.xlsx) with the same formatting.
 - A one-time import of your current Excel sheet to seed the tickers and existing valuations.
 
+## Privacy
+This repository is public. Holdings, valuations and history stay in `data/valuations.db` on your PC
+(git-ignored). Only code is committed.
+
 ## Build milestones
-1. Data layer + Excel import + dashboard displaying your current numbers with band colours.
+1. ✅ Data layer + Excel import + dashboard displaying your current numbers with band colours.
 2. yfinance price refresh + Claude fallback + "Prices only" button.
 3. Claude research (stocks) + validation + history + "Refresh" buttons.
 4. ETF look-through method.

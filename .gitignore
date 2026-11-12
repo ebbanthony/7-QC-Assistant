@@ -1,0 +1,11 @@
+# Local data: your holdings and valuations never leave your PC
+data/
+*.db
+*.xlsx
+*.xlsm
+*.csv
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
