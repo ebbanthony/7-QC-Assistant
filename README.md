@@ -19,9 +19,10 @@ That folder is git-ignored and is never committed (this repository is public).
 The app listens on `localhost` only.
 
 ## Setup (Windows, one time)
-1. Install **Python 3.11+** from python.org (tick "Add python.exe to PATH").
-2. Download this repository (green **Code** button → *Download ZIP*) and unzip it, or clone it with git.
-3. Double-click **`setup.bat`**.
+1. Unzip the app anywhere you like (e.g. `Documents\Valuation Dashboard`).
+2. Double-click **`setup.bat`**. If Python isn't installed, it installs it with winget; then run `setup.bat` again.
+
+**Updating:** unzip a new version over the old folder. Your data is in the `data` folder, which updates never touch.
 
 ## Use
 1. Double-click **`Launch Dashboard.bat`**. Your browser opens at http://localhost:8501.
